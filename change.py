@@ -9,6 +9,9 @@ def change():
     print ("Vuelto")
     print("")
     print(f"{"Pesos:"} \n{int(vuelto)}")
-    print(f"{"Centavos:"} \n{float(vuelto) - int(vuelto)}")
+    print("Centavos:")
+    vuelto_centavos = str(vuelto).split(".")[1]
+    print(vuelto_centavos)
+
 
 change()
